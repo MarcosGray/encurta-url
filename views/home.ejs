@@ -1,0 +1,98 @@
+
+<%- include('header') %> 
+
+<!-- ========================= SECTION INTRO ========================= -->
+<section id="home" class="section-intro bg-secondary text-white text-center" bg-color="#632551"  >
+        <div class="container d-flex flex-column"  style="min-height:40vh;">
+        
+            <div class="row mt-auto">
+                <div class="col-lg-9 col-md-8 col-sm-12 text-center mx-auto">
+                    <h1 class="display-4 mb-3">Encurtador de Url</h1>
+                    <p class="lead">Digite a url que deseja encurtar no campo abaixo, conforme o exemplo e clique no botão <strong>encurtar</strong> </p>
+                </div>
+            </div>
+            <div class="row mt-auto">
+                <div class="col-lg-9 col-md-8 col-sm-12 mx-auto text-center">
+                    <form class="form-noborder" action="/encurtar-url" method="POST" >
+                        <div class="form-row mb-5">
+                            <div class="col-lg-9 col-sm-12 form-group">
+                                <input name="urlnormal" class="form-control form-control-lg" placeholder="Ex. http://www.nomedosite.com" type="text">
+                            </div>                    
+                            <div class="col-lg-3 col-sm-12 form-group">
+                                <button class="btn btn-default btn-block btn-lg" type="submit">Encurtar</button>
+                            </div>
+                        </div>
+                    </form>
+                    <!-- <p class="small">Cempus amet donec, egestas pulvinar amet semper accusamus commod</p> -->
+                    
+                </div> <!-- col.// -->
+            </div> <!-- row.// -->
+        
+        </div>
+    </section>
+    <!-- ========================= SECTION INTRO END// ========================= -->
+    
+    
+    <section id="lista" class="section-content padding-y">
+        <div class="container">
+        
+            <header class="section-heading">
+                <h2>Lista de Urls</h2>
+            </header><!-- sect-heading -->
+            
+            <article>    
+                <p>Abaixo será mostrado a url normal e a encurtada.</p>
+                
+                <!-- ========================= SECTION CONTENT ========================= -->
+                <section class="section-content bg padding-y border-top">
+                    <div class="container">        
+                        <div class="row">
+                            <main class="col-sm-12">
+                        
+                                <div class="card">
+                                    <table class="table table-hover shopping-cart-wrap">
+                                        <thead class="text-muted">
+                                            <tr>
+                                                <th scope="col">Url normal</th>
+                                                <th scope="col">Url encurtada</th>
+                                                <th scope="col" class="text-right" width="200"></th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+
+                                            <% urls.forEach( url => {  %>
+                                            <tr>
+                                                <td>
+                                                    <figure class="media">
+                                                        <figcaption class="media-body">
+                                                            <h6 class="title text-truncate"> <strong> <%= url.url_normal %> </strong> </h6>                                                            
+                                                        </figcaption>
+                                                    </figure> 
+                                                </td>
+                                                <td> 
+                                                    <figure class="media">
+                                                        <figcaption class="media-body">
+                                                            <h6 class="title text-truncate"><a target="_blank" href="<%= url.code %>" > <%= url.url_encurtada %> </a></h6>                                                            
+                                                        </figcaption>
+                                                    </figure>  
+                                                </td>                                    
+                                                <td class="text-right"> 
+                                                    <a href="/excluir/<%= url.id %>" class="btn btn-outline-danger"> × Remove</a>
+                                                </td>
+                                            </tr>
+                                            <% })  %>
+                                        </tbody>
+                                    </table>
+                                </div> <!-- card.// -->        
+                            </main> <!-- col.// -->            
+                        </div>        
+                    </div> <!-- container .//  -->
+                </section>
+                <!-- ========================= SECTION CONTENT END// ========================= -->
+            </article>
+        
+        </div> <!-- container .//  -->
+    </section>
+    <!-- ========================= SECTION CONTENT END// ========================= -->
+
+    <%- include('footer') %> 
