@@ -43,12 +43,9 @@ Abra um navegador da sua preferencia e cole a url abaixo.
 As url's estão sendo salva numa base hospedada, que não precisa ser configurado. Pois ao executar "npm start" o projeto será executado e conectará automaticamente a base de dados.
 
 
-<div style="position:relative;width:fit-content;height:fit-content;">
-            <a style="position:absolute;top:20px;right:1rem;opacity:0.8;" href="https://clipchamp.com/watch/Te5uzO2fsus?utm_source=embed&utm_medium=embed&utm_campaign=watch">
-                <img style="height:22px;" src="https://clipchamp.com/e.svg" alt="Made with Clipchamp" />
-            </a>
-            <iframe allowfullscreen style="border:none" src="https://clipchamp.com/watch/Te5uzO2fsus/embed" width="640" height="360"></iframe>
-        </div>
-        
-        <iframe allowfullscreen style="border:none" src="https://clipchamp.com/watch/Te5uzO2fsus/embed" width="640" height="360"></iframe>
-        <img style="height:22px;" src="https://clipchamp.com/e.svg" alt="Made with Clipchamp" />
+
+
+ <img style="height:22px;" src="https://clipchamp.com/e.svg" alt="Made with Clipchamp" />
+  
+
+ 
