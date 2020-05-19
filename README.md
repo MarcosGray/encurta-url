@@ -45,7 +45,7 @@ As url's estão sendo salva numa base hospedada, que não precisa ser configurad
 
 
 
- <img style="height:22px;" src="https://drive.google.com/open?id=1M7nUMnq3ZALavRKIqmK-LFJ7CU76x1Mk" alt="Made with Clipchamp" />
+ <img style="height:22px;" src="https://clipchamp.com/watch/Te5uzO2fsus" alt="Made with Clipchamp" />
   
 
  
