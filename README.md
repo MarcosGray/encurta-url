@@ -16,18 +16,22 @@ Todas as url's geradas vão ser mostradas na seção "Lista de Urls", e ao clica
 
 ### Passo 1:
 Baixe o projeto usando o codigo abaixo.
+
 <code>https://github.com/MarcosGray/encurta-url.git</code>
 
 ### Passo 2:
 Entre na pasta do projeto usando o codigo abaixo.
+
 <code>cd encurta-url/</code>
 
 ### Passo 3:
 Dentro da pasta execute o codigo abaixo.
+
 <code>npm install</code>
 
 ### Passo 4:
 Para rodar o projeto execute o codigo abaixo.
+
 <code>npm start</code>
 
 ## Observações sobre o projeto
