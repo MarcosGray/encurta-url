@@ -44,3 +44,8 @@ As url's estão sendo salva numa base hospedada, que não precisa ser configurad
 
 
 
+
+ <img src="http://www.marcosgray.com.br/gifs/encurtador.gif" alt="Encurtador de url" />
+  
+
+ 
