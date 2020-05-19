@@ -44,7 +44,7 @@ As url's estão sendo salva numa base hospedada, que não precisa ser configurad
 
 
 
-![Demo do site encurtador de Url](images/encurtador.gif)
+![Demo do site encurtador de Url](public/images/encurtador.gif)
   
-
+![](public/images/encurtador.gif)
  
