@@ -40,7 +40,7 @@ Abra um navegador da sua preferencia e cole a url abaixo.
 <code>http://localhost:8081/</code>
 
 ## Observações sobre o projeto
-As url's estão sendo salva numa base hospedada, que não precisa ser configurado. Pois ao executar "npm start" o projeto será executado e conectará automaticamente a base de dados.
+As url's estão sendo salva numa base remota, que não precisa ser configurado. Pois ao executar "npm start" o projeto será executado e conectará automaticamente a base de dados.
 
 
 
