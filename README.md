@@ -45,7 +45,7 @@ As url's estão sendo salva numa base hospedada, que não precisa ser configurad
 
 
 
- <img style="height:22px;" src="http://marcosgray.com.br/gifs/encurtador.gif" alt="Made with Clipchamp" />
+ <img src="http://www.marcosgray.com.br/gifs/encurtador.gif" alt="Encurtador de url" />
   
 
  
