@@ -49,3 +49,6 @@ As url's estão sendo salva numa base hospedada, que não precisa ser configurad
             </a>
             <iframe allowfullscreen style="border:none" src="https://clipchamp.com/watch/Te5uzO2fsus/embed" width="640" height="360"></iframe>
         </div>
+        
+        <iframe allowfullscreen style="border:none" src="https://clipchamp.com/watch/Te5uzO2fsus/embed" width="640" height="360"></iframe>
+        <img style="height:22px;" src="https://clipchamp.com/e.svg" alt="Made with Clipchamp" />
