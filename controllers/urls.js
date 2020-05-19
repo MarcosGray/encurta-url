@@ -36,13 +36,11 @@ const getUrlCode = db => async(req, res) => {
 const insertUrl = db => async(req, res) => {
     let urlDigitada = req.body.urlnormal
     let http = urlDigitada.indexOf("http://")
-    
-
+ 
     if (http === -1) {
         urlDigitada = 'http://' + urlDigitada
     }
-    console.log(urlDigitada)
-
+    
     let code = hashCode(9)
     if (urlDigitada.length === 0 || urlDigitada === 'http://') {      
         res.redirect('/')
