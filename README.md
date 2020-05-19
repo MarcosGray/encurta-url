@@ -3,10 +3,8 @@ Projeto desenvolvido com nodejs, express, ejs e mysql, tem o objetivo de encurta
 
 ### Entendendo o funcionamento
  
-A página tem um campo onde deve ser colocado a url, para que possa ser encurtada, sendo necessario digitar a url nos seguintes padroões:
- - http://nomedosite.com
- - http://www.nomedosite.com
- - www.nomedosite.com
+A página tem um campo onde deve ser colocado a url, para que possa ser encurtada.
+
 
 OBS.: Caso clique no botão ENCURTAR com o campo vazio, o site vai limpar o campo sem gerar a url.
 
