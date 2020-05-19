@@ -1,5 +1,5 @@
 # encurta-url
-Projeto desenvolvido com nodejs, express, ejs e mysql. Esse site é um encurtador de url
+Projeto desenvolvido com nodejs, express, ejs e mysql, tem o objetivo de encurtar uma url.
 
 ### Entendendo o funcionamento
  
